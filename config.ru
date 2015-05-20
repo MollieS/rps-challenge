@@ -1,4 +1,4 @@
 require 'rubygems'
-require './app'
+require File.join(File.dirname(__FILE__), 'lib/rps_web.rb')
 
-run Sinatra::Application
+run RockPaperScissorsWeb
